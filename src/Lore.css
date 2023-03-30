@@ -1,21 +1,17 @@
-@font-face {
-    font-family: 'Nunito-Black';
-    src: url('./Nunito-Black.ttf');
-  }
-
 .loreContainer {
     margin: 5vh;
     display: flex;
-    padding: 1vh;
+    padding: 1vh 2vh;
     max-width: 41vw;
     border-radius: 2vh;
     position: relative;
     background-color: rgba(34, 34, 34, 0.75);
     box-shadow: 0 0 5px 2px rgba(34, 34, 34, 0.75);
     color: #fff;
+    display: flex;
+    flex-direction: column;
   }
 
-  
   .loreContainer::after {
     content: "";
     position: absolute;
@@ -28,11 +24,8 @@
     z-index: -1;
   }
   
-
 .imgCont{
-    display: flex;
     float: left;
-    object-fit: cover;
 }
 
 .imgCont img{
@@ -41,19 +34,22 @@
     width: 20vw;
     height: 35vh;
     border-radius: 2vh;
+    box-shadow: 0 0 3px 0.1vh #fff;
+    margin-right: 1.5vh;
 }
 
 .textContLore{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 3vh;
-    margin-right: 2vh;
+    font-weight: 500;
     margin-bottom: 1vh;
+    font-size: 2.5vh;
 }
 
 .titleContLore{
     text-align: center;
     font-size: 5vh;
+    margin-bottom: 3vh;
+    padding-bottom: 1vh;
+    border-bottom: #fff solid 0.5vh;
 }
 
 .chevronIcon{
@@ -72,11 +68,9 @@
 .lores{
     margin-top: 5vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-}
-
-.descContLore{
-    font-size: 2.5vh;
 }
 
 .warning{
@@ -87,4 +81,34 @@
     background-color: #fff;
     padding: 0 3vh;
     border-radius: 5vh;
+}
+
+.adv{
+    color: rgb(255, 83, 83);
+    text-shadow: 0px 0px 5px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.caciqueColor{
+    color: rgb(35, 211, 35);
+}
+
+.good{
+    color: rgb(34, 255, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 0px 5px #000;
+    text-align: center;
+    font-size: 4.5vh;
 }

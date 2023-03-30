@@ -14,7 +14,7 @@ let Reglas =()=>{
                     <p className="rule"><b className="reglasNumber">2.)</b> Reporta los bugs y no los aproveches, seguro recibis una recompensa </p>
                     <p className="rule"><b className="reglasNumber">3.)</b> Juga tranquilo, no es una carrera</p>
                     <p className="rule"><b className="reglasNumber">4.)</b> La casa de un jugador lo es todo, no molestes</p>
-                    <p className="rule"><b className="reglasNumber">5.)</b> Respeta los tiempos de evento y exceso a portales</p>
+                    <p className="rule"><b className="reglasNumber">5.)</b> Respeta los tiempos de evento y acceso a portales</p>
                     <p className="rule"><b className="reglasNumber">6.)</b> No se permiten los hacks</p>
                 </div>
                 <p className="reglasSubTitle">-IRL:</p>

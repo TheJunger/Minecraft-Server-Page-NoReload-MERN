@@ -17,7 +17,7 @@ p{
     padding: 2vh;
     justify-content: baseline;
     align-items: center;
-    background-color: rgb(34, 34, 34, 0.5);
+    background-color: rgb(34, 34, 34, 0.75);
     color: #fff;
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +36,7 @@ p{
 .reglasTitle2{
     color: rgb(255, 98, 98);
     font-weight: bold;
+    text-shadow: 0px 0px 5px #000;
 }
 
 .reglas{
