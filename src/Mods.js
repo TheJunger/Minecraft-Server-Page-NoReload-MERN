@@ -14,7 +14,8 @@ let Mods = ()=>{
 
     return(
         <div className="modsContainer">
-        <div className="linkMods">Descarga los mods desde el siguiente <a href="">link</a></div>
+        {/*<div className="linkMods">Descarga los mods desde el siguiente <a href="">link</a></div>*/}
+        <div className="linkMods">El link de descarga se habilitara pronto!</div>
         <div className="gridCont">
             <ModSchema titulo='SecurityCraft Mod' link='https://www.minecrafteo.com/wp-content/uploads/2021/08/security-craft-1-17.jpg'/>
             <ModSchema link='https://www.minecrafteo.com/wp-content/uploads/2023/02/medieval-siege-machines-mod.jpg'titulo='Medieval Siege Machines Mod '/>

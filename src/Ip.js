@@ -5,7 +5,7 @@ import './Ip.css'
 
 let Ip = ()=>{
 
-    const [texto, setCopyText] = useState('Cogimientoland.exaroton.me')
+    const [texto, setCopyText] = useState('La IP se revelara pronto!')
 
     const copyText = () =>{
         navigator.clipboard.writeText(texto)
