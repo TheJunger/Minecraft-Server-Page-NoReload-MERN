@@ -4,7 +4,7 @@ import "font-awesome/css/font-awesome.min.css";
 import './Ip.css'
 
 let Ip = ()=>{
-
+    /*const [texto, setCopyText] = useState('cogimientoland.exaroton.me') //añadir al terminar la cuenta*/
     const [texto, setCopyText] = useState('La IP se revelara pronto!')
 
     const copyText = () =>{

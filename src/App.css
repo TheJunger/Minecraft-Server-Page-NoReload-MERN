@@ -1,18 +1,21 @@
 body{
-  /*background-image: url(Cogimientoland-Fondo2.jpg);*/
+  /*background-image: url(Cogimientoland-Fondo2.jpg);
   background-image: linear-gradient(to top, rgba(170, 170, 170, 0.1), rgba(68, 68, 68, 0.9));
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  
+  */
+  background-image: url(DAY.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #root{
   width: 100vw;
   height: 100vh;
-  background-image: url(DAY.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+
   /*background-image: url(Cogimientoland-Fondo.jpg);*/
 
 }
@@ -22,13 +25,12 @@ body{
   src: url('./Minecraft.ttf');
 }
 
-.main{
+/*.main{
   width: 100%;
   height: 84.5vh;
-  background-color: rgba(34, 34, 34, 0.25);
+  background-color: rgba(34, 34, 34, 0.025);
   box-shadow: 0 0 5px 2px rgba(34, 34, 34, 0.25);
   position: relative;
-  
 }
 
 .main::after {
@@ -42,7 +44,7 @@ body{
   opacity: 0.5;
   z-index: -1;
 }
-
+*/
 .logo::after {
   content: "";
   position: absolute;
@@ -59,8 +61,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(34, 34, 34, 0.01);
-  box-shadow: 0 0 5px 2px rgba(34, 34, 34, 0.01);
+  background-color: rgba(34, 34, 34, 0.1);
+  box-shadow: 0 0 5px 2px rgba(34, 34, 34, 0.1);
   position: relative;
 }
 

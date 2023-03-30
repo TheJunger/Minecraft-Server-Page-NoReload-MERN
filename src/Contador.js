@@ -32,7 +32,7 @@ const ContadorCuentaRegresiva = ({ fechaDestino }) => {
   }, [fechaDestino]);
 
   if (dias === 0 && horas === 0 && minutos === 0 && segundos === 0) {
-    return /*"Preparate bien, nos vemos hoy a las 19:00 en discord!"*/;
+    return /*"La cuenta ha terminado!, nos vemos hoy en discord!"*/;
   }
 
   return `${dias} día${dias > 1 ? 's,' : ','} ${horas}:${minutos < 10 ? '0' : ''}${minutos}:${segundos < 10 ? '0' : ''}${segundos}`;
