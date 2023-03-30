@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Nunito-Black';
+    src: url('./Nunito-Black.ttf');
+  }
+
+.loreContainer {
+    margin: 5vh;
+    display: flex;
+    padding: 1vh;
+    max-width: 41vw;
+    border-radius: 2vh;
+    position: relative;
+    background-color: rgba(34, 34, 34, 0.75);
+    box-shadow: 0 0 5px 2px rgba(34, 34, 34, 0.75);
+    color: #fff;
+  }
+
+  
+  .loreContainer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(1vh);
+    opacity: 0.5;
+    z-index: -1;
+  }
+  
+
+.imgCont{
+    display: flex;
+    float: left;
+    object-fit: cover;
+}
+
+.imgCont img{
+    float: left;
+    object-fit: cover;
+    width: 20vw;
+    height: 35vh;
+    border-radius: 2vh;
+}
+
+.textContLore{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3vh;
+    margin-right: 2vh;
+    margin-bottom: 1vh;
+}
+
+.titleContLore{
+    text-align: center;
+    font-size: 5vh;
+}
+
+.chevronIcon{
+    margin: 3vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevronIcon i{
+    margin: 0;
+    padding: 0;
+    font-size: 5vh;
+}
+
+.lores{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.descContLore{
+    font-size: 2.5vh;
+}
+
+.warning{
+    font-size: 6vh;
+    font-family: 'Nunito-Black';
+    color: rgb(255, 28, 28);
+    -webkit-text-stroke: 0.1vh #222;
+    background-color: #fff;
+    padding: 0 3vh;
+    border-radius: 5vh;
+}

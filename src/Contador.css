@@ -1,0 +1,13 @@
+.contador{
+    display: flex;
+    justify-content: center;
+    font-size: 10vh;
+    font-weight: bolder;
+    flex-direction: column;
+  }
+  .contadorP{
+    margin: 0;
+    text-align: center;
+    color: #afa;
+    -webkit-text-stroke: 0.3vh black;
+  }

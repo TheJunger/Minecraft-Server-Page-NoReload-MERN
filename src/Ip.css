@@ -1,0 +1,33 @@
+.ipCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipCont *{
+    margin: 0 1vh;
+    font-size: 7vh;
+
+
+}
+
+.ipText{
+    font-weight: bolder;
+    color: #afa;
+    -webkit-text-stroke: 0.3vh black;
+}   
+
+.iconIp{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2vh;
+    transition: all 0.2s;
+}
+
+.iconIp:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+}
+
+.iconIp:active{
+    transform: scale(0.8);
+}

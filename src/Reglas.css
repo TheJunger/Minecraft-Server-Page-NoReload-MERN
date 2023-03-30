@@ -1,0 +1,30 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.reglasCont{
+    display: flex;
+    flex-direction: column;
+    border: 0.5vh solid #222;
+    border-radius: 1vh;
+    padding: 2vh;
+    margin-top: -25vh;
+    justify-content: baseline;
+    align-items: center;
+    background-color: rgb(34, 34, 34, 0.3);
+    color: #fff;
+}
+
+.reglasTitle{
+    font-weight: bolder;
+    font-size: 4vh;
+    padding-bottom: 0.5vh;
+    margin-bottom: 2vh;
+    border-bottom: 0.5vh solid #222;
+}
+
+.reglas{
+    align-self: baseline;
+    font-size: 2.8vh;
+}
