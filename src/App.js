@@ -35,10 +35,6 @@ function App() {
     manejadorMainPage('mods')
   }
 
-  useEffect(()=>{
-    manejadorMainPage('inicio')
-  },[])
-
   const manejadorMainPage = (aMostrar)=>{
     console.log(aMostrar)
       setInicio(false)

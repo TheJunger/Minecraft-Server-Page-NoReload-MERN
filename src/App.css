@@ -45,6 +45,31 @@ body{
   z-index: -1;
 }
 */
+
+.mainPage{
+  margin-top: 5vh;
+}
+
+.mainPage iframe{
+  box-shadow: 2px 7px 10px #444;
+  border-radius: 2vh;
+  border: 1vh solid #000;
+  width: 55vw;
+  height: 65vh;
+}
+
+.titleTrailer{
+  font-size: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito-Black';
+  color: #fff;
+  margin-bottom: 5vh;
+  -webkit-text-stroke: 0.4vh rgb(0, 0, 0);
+  letter-spacing: 0.1vh;
+}
+
 .logo::after {
   content: "";
   position: absolute;

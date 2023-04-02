@@ -42,11 +42,15 @@ const Contador = () => {
   const fechaDestino = new Date("2023-04-09").getTime();
 
   return (
-    <div className='contador'>
+    <div className='mainPage'>
+      <div className='titleTrailer'>Trailer oficial</div>
+      <iframe className='video' src="https://www.youtube.com/embed/nOP8g-ljpKs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; allowfullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" muted allowfullscreen></iframe>
+        <div className='contador'>
         <p className='contadorP falta'>Faltan:</p>
       <p className='contadorP'>
         <ContadorCuentaRegresiva fechaDestino={fechaDestino} />
       </p>
+    </div>
     </div>
   );
 };

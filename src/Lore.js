@@ -115,10 +115,10 @@ let Lore = () =>{
           Una inusual tormenta electrica cubre la noche
           <br/>
           En medio de esta tormenta a ilHaters le llama la atencion un estruendo en particular, demasiado fuerte y demasiado brilloso como para ser un rayo, pero tambien demasiado lejos como para ir a investigarlo durante esa tormenta, 
-          <br/>por lo que este deberia esperar a la mañana siguiente para ir a ver
+          <br/>por lo que este esperaria a que la tormenta calme para ir a ver
           <br/>
           <br/>
-          A la mañana siguiente ilHaters llega al lugar del estruendo y se encuentra con algo que habia olvidado hace tiempo, 
+          ilHaters finalmente despues de un tiempo llega al lugar del estruendo y se encuentra con algo que habia olvidado hace tiempo, 
           <br/>algo que jamas penso volver a ver...
           <br/>
           <br/>
