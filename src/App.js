@@ -16,6 +16,10 @@ import { Lore } from './Lore';
 
 function App() {
 
+  useEffect(()=>{
+    document.querySelector('.inicio').click()
+  },[])
+
   const [inicio, setInicio] = useState(false)
   const [server, setServer] = useState(false)
   const [lore, setLore] = useState(false)

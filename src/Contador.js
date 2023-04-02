@@ -9,7 +9,7 @@ const ContadorCuentaRegresiva = ({ fechaDestino }) => {
 
   useEffect(() => {
     const intervalo = setInterval(() => {
-      const ahora = new Date().getTime();
+      const ahora = new Date().getTime() - (3 * 60 * 60 * 1000);
       const distancia = fechaDestino - ahora;
 
       if (distancia < 0) {
