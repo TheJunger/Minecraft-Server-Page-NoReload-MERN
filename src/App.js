@@ -2,7 +2,6 @@ import './App.css';
 import logo from './Cogimientoland-LOGO.png'
 import { useState, useEffect } from 'react';
 import "font-awesome/css/font-awesome.min.css";
-import day from './DAY.png'
 
 import { Contador } from './Contador';
 
@@ -66,9 +65,6 @@ function App() {
         setInicio(true)
       }
   }
-
-  //cambiar icon
-  //aviso inicio
 
   return (
     <div className="container">

@@ -7,13 +7,11 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    opacity: 0; /* Inicialmente oculto */
-    transform: translateY(-55vh); /* Empieza 10px más arriba */
-    transition: opacity 0.1s ease-out, transform 0.3s ease-out; /* Transiciones suaves, tengo que hacer que no se pueda seleccionar */
+    opacity: 0;
+    transform: translateY(-55vh);
+    transition: opacity 0.1s ease-out, transform 0.3s ease-out;
     user-select: none;
     margin-left: -8vh;
-    
-    
   }
 
   .dropdown:hover{
@@ -21,8 +19,8 @@
   }
   
   .dropdown-menu.open {
-    opacity: 1; /* Mostrar */
-    transform: translateY(0); /* Volver a su posición original */
+    opacity: 1;
+    transform: translateY(0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,8 +35,7 @@
     user-select: none;
     transition: all 0.3s;
     position: relative;
-    height: fit-content; /* Ajustar altura al contenido */
-    
+    height: fit-content;
   }
 
   .dropdowntext{
@@ -50,7 +47,6 @@
     border-radius: 1vh;
     font-size: 3.5vh;
     transition: background 0.3s;
-    
   }
 
   ul{

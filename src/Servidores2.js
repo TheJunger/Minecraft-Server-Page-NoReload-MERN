@@ -15,7 +15,6 @@ function DropdownMenu({valorIP, valorReglas, valorMods}) {
 
   const enviarValorIp = ()=>{
     valorIP(valorIp)
-    //tambien deberia enviar los valores de los otros
   }
 
   const cambiarValorReglas = ()=>{
@@ -25,7 +24,6 @@ function DropdownMenu({valorIP, valorReglas, valorMods}) {
 
   const enviarValorReglas = ()=>{
     valorReglas(valorReglasC)
-    //tambien deberia enviar los valores de los otros
   }
 
   const cambiarValorListadeMods = ()=>{
@@ -35,7 +33,6 @@ function DropdownMenu({valorIP, valorReglas, valorMods}) {
 
   const enviarValorListadeMods = ()=>{
     valorMods(valorListadeMods)
-    //tambien deberia enviar los valores de los otros
   }
 
   const toggleMenu = () => {
