@@ -32,14 +32,14 @@ const ContadorCuentaRegresiva = ({ fechaDestino }) => {
   }, [fechaDestino]);
 
   if (dias === 0 && horas === 0 && minutos === 0 && segundos === 0) {
-    return /*"La cuenta ha terminado!, nos vemos hoy en discord!"*/;
+    return "La cuenta ha terminado!, nos vemos hoy en discord!";
   }
 
   return `${dias} día${dias > 1 ? 's,' : ','} ${horas}:${minutos < 10 ? '0' : ''}${minutos}:${segundos < 10 ? '0' : ''}${segundos}`;
 };
 
 const Contador = () => {
-  const fechaDestino = new Date("2023-04-09").getTime();
+  const fechaDestino = new Date("2023-04-05").getTime();
 
   return (
     <div className='mainPage'>
