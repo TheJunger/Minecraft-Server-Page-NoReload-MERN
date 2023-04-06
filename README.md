@@ -54,7 +54,7 @@ Cada opción tiene un estado asociado que se actualiza cuando el usuario hace cl
 
 Cuando se selecciona una de las 3 opciones, su contenido se visualiza sin necesidad de recarga
 
-### Mods [ Servidor ]
+### Mods.js [ Servidor ]
 
 El componente Mods contiene una serie de sub componentes (ModSchema), que muestran una imagen y un título de cada mod. 
 
@@ -62,7 +62,7 @@ Al inicio se visualiza un enlace para descargar todos los mods.
 
 El código utiliza clases CSS para dar estilo a los elementos.
 
-### Reglas [ Servidor ]
+### Reglas.js [ Servidor ]
 
  El contenido es un conjunto de reglas que deben seguirse en el servidor de Minecraft.
 
@@ -70,7 +70,7 @@ El código utiliza clases CSS para dar estilo a los elementos.
 
  Este componente devuelve el contenido de las reglas envueltas en un div con una clase "reglasCont". Dentro de este div, hay un div que contiene el título "Reglas del servidor" y un párrafo que contiene las reglas en sí.
 
- ### Ip [ Servidor ]
+ ### Ip.js [ Servidor ]
 
 El componente Ip renderiza el texto de la dirección IP y un icono de copiar. 
 
@@ -80,7 +80,7 @@ Además, cuando se hace clic en el icono, se muestra una alerta indicando que la
 
  La función copyText utiliza la API navigator.clipboard.writeText() para copiar el texto de la dirección IP en el portapapeles del usuario.
 
- ### Lore [ Lore ]
+ ### Lore.js [ Lore ]
 
  Este componente renderiza información sobre las diferentes ediciones de una serie de minecraft llamada "Cogimientoland" en forma de tarjetas.
 
@@ -130,21 +130,21 @@ Each option has an associated state that is updated when the user clicks on it, 
 
 When one of the 3 options is selected, its content is displayed without the need to reload.
 
-### Mods [ Servidor ]
+### Mods.js [ Servidor ]
 The Mods component contains a series of sub-components (ModSchema), which show an image and a title of each mod.
 
 At the beginning, a link to download all the mods is displayed.
 
 The code uses CSS classes to style the elements.
 
-### Reglas [ Servidor ]
+### Reglas.js [ Servidor ]
 The content is a set of rules that must be followed on the Minecraft server.
 
 The content is structured into two sections: "INGAME" (in the game) and "IRL" (in real life). Each section contains a set of numbered rules.
 
 This component returns the content of the rules wrapped in a div with a class "reglasCont". Inside this div, there is a div containing the title "Server Rules" and a paragraph containing the rules themselves.
 
-### IP [ Servidor ]
+### Ip.js [ Servidor ]
 The IP component renders the text of the IP address and a copy icon.
 
 When the user clicks on the icon, the copyText() function is called to copy the text of the IP address to the user's clipboard.
@@ -153,5 +153,5 @@ In addition, when the icon is clicked, an alert is displayed indicating that the
 
 The copyText() function uses the navigator.clipboard.writeText() API to copy the text of the IP address to the user's clipboard.
 
-### Lore [ Lore ]
+### Lore.js [ Lore ]
 This component renders information about the different editions of a Minecraft series called "Cogimientoland"
